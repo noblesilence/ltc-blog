@@ -1,33 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `Learn Teach Center Blog`,
+    name: `Learn Teach Center Blog`,
+    siteUrl: `https://learnteachcenter.com/blog`,
+    description: `The ultimate purpose of opening this site is to develop a machinery of developing, maintaining, and propagating technology, knowledge, and wisdom for all intelligent beings in reach.`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to the Learn Teach Center Blog`,
       maxWidth: 652,
     },
     social: [
       {
+        name: `facebook`,
+        url: `https://www.facebook.com/learnteachcenter/`,
+      },
+      {
+        name: `youtube`,
+        url: `http://www.youtube.com/drminaung`,
+      },
+      {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://twitter.com/learnteachc`,
       },
     ],
   },
@@ -37,7 +29,7 @@ module.exports = {
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
-        basePath: "/",
+        basePath: "/blog",
         authorsPage: true,
         sources: {
           local: true,
