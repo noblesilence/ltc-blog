@@ -1,1 +1,1 @@
-Learn Teach Center Blog built with Gatsby
+Learn Teach Center Blog built with Gatsby & Narative Theme
